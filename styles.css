@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.login-container {
+    margin-top: -100px;
+    display: flex;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-card {
+    background-color: #ffffff;
+    width: 455px;
+    border-radius: 4.5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+}
+
+.header {
+    background-color: #d4dbf9; /* Light purple header */
+    padding: 20px 10px;
+    position: relative;
+    height: 80px;
+}
+
+.header h2 {text-decoration: none
+    ;
+    margin: 5px 0 5px;
+  color: #556ee6 ;
+    font-size: 16px;
+    text-align: left;
+}
+
+.header p {
+    margin: 0;
+  color: #556ee6;
+    font-size: 14px;
+    text-align: left;
+
+}
+.com{
+    display: flex;
+    justify-content: right;
+    margin-top:  -70px;
+    margin-right: -8px;
+}
+
+ 
+
+/* Circle styling */
+.c{
+    display: flex;
+   
+
+}
+.circle {margin-top: -25px;
+    margin-left: 50px ;
+    width: 60px;
+    height: 60px;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+ 
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid #ffffff;
+    align-items: first ;
+
+
+}
+.hj{
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.jgi{
+   color: aqua;
+}
+.jgi img{
+    height:30px;
+    margin-bottom: -30px;
+} 
+
+.login-card label {
+    display: block;
+    margin: 15px 0 5px;
+    text-align: left;
+    font-weight:  0;
+    font-size: 14px;
+    color: #495057;
+    padding: 0 20px;
+}
+
+.login-card input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;  /* Default border color */
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;  /* Remove the default outline when focused */
+}
+
+.login-card input:focus {
+    border: 1px solid #ccc;  /* Ensure the border stays the same color */
+    box-shadow: none;  /* Remove any shadow effect */
+}
+
+
+.login-card button {
+    width: 90%;
+    padding: 10px;
+    background-color:#556ee6; 
+    border: none;
+    color: white;
+    font-size: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.login-card button:hover {
+    background-color: #3452e1;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 20px;
+   
+    color: #74788d;;
+    font-size: 13px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.forgot-password:hover {
+    color: #74788d;
+}
+.lock{
+    margin-top: 0px;
+}
